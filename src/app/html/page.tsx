@@ -8,7 +8,7 @@ export default function CvHtmlPage() {
   return (
     <main>
       <section>
-        <div className='layout min-h-screen py-20'>
+        <div className='layout min-h-screen bg-slate-50 py-20'>
           <CvDocument />
         </div>
       </section>
