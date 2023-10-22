@@ -1,5 +1,5 @@
 const Body = () => {
-  return <div className='w-[830px]'>Body</div>;
+  return <div className='w-[780px]'>Body</div>;
 };
 
 export default Body;

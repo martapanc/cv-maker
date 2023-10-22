@@ -12,6 +12,165 @@
       "Fiction writer, oboist, philosophy-enthusiast and travel photographer in my free time."
     ]
   },
-  "sidebar": {},
-  "body": {}
+  "body": {
+    "jobs": [
+      {
+        "name": "Resourcify GmbH – Hamburg (Remote)",
+        "jobTitle": "Full-Stack Engineer",
+        "dates": "Mar 2022 – Present",
+        "description": "resourcify.md",
+        "skills": [
+          "Java",
+          "Spring Boot",
+          "Angular",
+          "TypeScript",
+          "Docker",
+          "Kubernetes",
+          "MySQL",
+          "AWS"
+        ]
+      },
+      {
+        "name": "BJSS Ltd – Manchester (Remote)",
+        "jobTitle": "Software Developer",
+        "dates": "Nov 2020 – Feb 2022",
+        "description": "bjss.md",
+        "skills": [
+          "PHP",
+          "Drupal",
+          "Angular",
+          "Vue",
+          "Google Tag Manager",
+          "Jenkins",
+          "AWS"
+        ]
+      },
+      {
+        "name": "Booking.com Transport – Manchester",
+        "jobTitle": "Graduate Software Engineer",
+        "dates": "Sep 2018 – Nov 2020",
+        "description": "booking.md",
+        "skills": [
+          "Java",
+          "JSP",
+          "Spring Boot",
+          "JavaScript",
+          "ReactJS",
+          "NodeJS",
+          "PHP",
+          "MySQL",
+          "Bamboo",
+          "GoCD",
+          "AWS",
+          "GCP"
+        ]
+      },
+      {
+        "name": "Free University of Bolzano – Manchester (Remote)",
+        "jobTitle": "Research Assistant",
+        "dates": "Sep 2017 – Mar 2018",
+        "description": "Collaboration in writing an article for IEEE about contracts and policies of cloud services, to give companies guidance on how to be compliant following the changes introduced by the new European law on data protection (GDPR).",
+        "skills": ["Cloud", "SaaS", "GDPR"]
+      },
+      {
+        "name": "ICT Group – Reggio Emilia, Italy (Hybrid)",
+        "jobTitle": "Frontend developer",
+        "dates": "July 2016 – Mar 2017",
+        "description": "Completed a 300-hour curricular internship, which led to a 5-month part-time contract. During this time, I developed a customized HRMS web application that allowed employees and HR staff to manage holiday, sick leave, and business travel requests.",
+        "skills": ["AngularJS", "Bootstrap", "jQuery", "NodeJS", "MongoDB"]
+      }
+    ]
+  },
+  "sidebar": {
+    "education": [
+      {
+        "school": "University of Manchester",
+        "degree": "MSc in Advanced Computer Science",
+        "years": "2017 - 2018",
+        "grade": "Distinction"
+      },
+      {
+        "school": "Free University of Bolzano (Italy)",
+        "degree": "BSc in Computer Science",
+        "years": "2014 - 2017",
+        "grade": "106/110"
+      },
+      {
+        "school": "College of Charleston (USA)",
+        "degree": "Exchange Semester",
+        "years": "2015",
+        "grade": "4.0 GPA"
+      }
+    ],
+    "programming": [
+      {
+        "language": "Java",
+        "score": "w-full"
+      },
+      {
+        "language": "Typescript",
+        "score": "w-full"
+      },
+      {
+        "language": "Python",
+        "score": "w-4/5"
+      },
+      {
+        "language": "Kotlin",
+        "score": "w-4/5"
+      },
+      {
+        "language": "C#",
+        "score": "w-3/5"
+      },
+      {
+        "language": "PHP",
+        "score": "w-2/5"
+      }
+    ],
+    "skills": [
+      {
+        "group": "Frontend",
+        "names": "React, Angular, Vue, TypeScript, jQuery, HTML, CSS, Bootstrap, Tailwind"
+      },
+      {
+        "group": "Backend",
+        "names": "Spring Boot, JSP, Django, Flask, ASP.NET, Node.js, Express, Drupal"
+      },
+      {
+        "group": "Database",
+        "names": "MySQL, Postgres, MongoDB, Firestore"
+      },
+      {
+        "group": "Testing",
+        "names": "TDD, BDD, Junit, Mockito, Cucumber, Selenium, PACT, Jest, Espresso"
+      },
+      {
+        "group": "Cloud",
+        "names": "AWS, GCP, Firebase, Heroku"
+      },
+      {
+        "group": "DevOps",
+        "names": "Docker, Kubernetes, Jenkins"
+      }
+    ],
+    "languages": [
+      {
+        "name": "Italian",
+        "level": "Native"
+      },
+      {
+        "name": "English",
+        "level": "Fluent (C2)"
+      },
+      {
+        "name": "German",
+        "level": "Intermediate (B1-B2)"
+      },
+      {
+        "name": "French",
+        "level": "Beginner (A1-A2)"
+      }
+    ]
+  }
 }
