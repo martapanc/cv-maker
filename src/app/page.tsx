@@ -2,6 +2,7 @@
 
 import Head from 'next/head';
 import * as React from 'react';
+import ReactToPrint from 'react-to-print';
 
 import ArrowLink from '@/components/links/ArrowLink';
 import ButtonLink from '@/components/links/ButtonLink';
@@ -17,17 +18,23 @@ import UnstyledLink from '@/components/links/UnstyledLink';
  */
 import Logo from '~/svg/Logo.svg';
 
-// !STARTERCONF -> Select !STARTERCONF and CMD + SHIFT + F
-// Before you begin editing, follow all comments with `STARTERCONF`,
-// to customize the default configuration.
-
 export default function HomePage() {
+  const componentRef = React.useRef<HTMLDivElement>(null);
+
   return (
     <main>
       <Head>
         <title>Hi</title>
       </Head>
-      <section className='bg-white'>
+
+      <ReactToPrint
+        trigger={() => {
+          return <a href='#'>Print this</a>;
+        }}
+        content={() => componentRef.current}
+      />
+
+      <section className='bg-white' ref={componentRef}>
         <div className='layout relative flex min-h-screen flex-col items-center justify-center py-12 text-center'>
           <Logo className='w-16' />
           <h1 className='mt-4'>Next.js + Tailwind CSS + TypeScript Starter</h1>
