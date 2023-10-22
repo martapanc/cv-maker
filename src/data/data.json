@@ -1,0 +1,17 @@
+{
+  "header": {
+    "name": "MARTA PANCALDI",
+    "jobTitle": "Full-Stack Software Engineer",
+    "email": "marta_panc@me.com",
+    "website": "https://martacodes.it",
+    "location": "Torino, Italy",
+    "phoneNumber": "(+39) 3282465454",
+    "intro": [
+      "I’m a computer science graduate who loves writing code for work and for fun.",
+      "I love solving problems and have a strong desire to learn and continuously improve my skills.",
+      "Fiction writer, oboist, philosophy-enthusiast and travel photographer in my free time."
+    ]
+  },
+  "sidebar": {},
+  "body": {}
+}

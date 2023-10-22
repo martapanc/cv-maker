@@ -13,7 +13,7 @@ export default function CvHtmlPage() {
       <section className=' bg-slate-50 '>
         <ReactToPrint
           trigger={() => {
-            return <a href='#'>Print this</a>;
+            return <a href='#'>Print</a>;
           }}
           content={() => componentRef.current}
         />
