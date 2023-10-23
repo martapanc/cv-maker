@@ -1,5 +1,7 @@
 import clsx from 'clsx';
 
+import SectionHeader from '@/components/headers/SectionHeader';
+
 import { Language } from '@/types/Language';
 import { ProgrammingLanguage } from '@/types/ProgrammingLanguage';
 import { School } from '@/types/School';
@@ -16,9 +18,7 @@ const Sidebar = (props: SidebarProps) => {
   return (
     <div className='w-[320px] bg-slate-200 px-6 py-10'>
       <div className='education' aria-label='education'>
-        <div className='w-full border-b-2 border-slate-400 text-xl'>
-          <span>EDUCATION</span>
-        </div>
+        <SectionHeader title='Education' />
 
         {props.education.map((entry, id) => (
           <div key={id} className='my-4 flex flex-col'>
@@ -33,9 +33,7 @@ const Sidebar = (props: SidebarProps) => {
       </div>
 
       <div className='programming mt-8' aria-label='programming'>
-        <div className='w-full border-b-2 border-slate-400 text-xl'>
-          <span>PROGRAMMING</span>
-        </div>
+        <SectionHeader title='Programming' />
 
         {props.programming.map((entry, id) => (
           <div key={id} className='my-3 flex'>
@@ -55,9 +53,7 @@ const Sidebar = (props: SidebarProps) => {
       </div>
 
       <div className='skills mt-8' aria-label='skills'>
-        <div className='w-full border-b-2 border-slate-400 text-xl'>
-          <span>SKILLS</span>
-        </div>
+        <SectionHeader title='Skills' />
 
         {props.skills.map((entry, id) => (
           <div key={id} className='my-3'>
@@ -71,9 +67,7 @@ const Sidebar = (props: SidebarProps) => {
       </div>
 
       <div className='languages mt-8' aria-label='languages'>
-        <div className='w-full border-b-2 border-slate-400 text-xl'>
-          <span>LANGUAGES</span>
-        </div>
+        <SectionHeader title='Languages' />
 
         {props.languages.map((entry, id) => (
           <div key={id} className='my-2'>

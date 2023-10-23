@@ -108,7 +108,7 @@
         "score": "w-full"
       },
       {
-        "language": "Typescript",
+        "language": "TypeScript",
         "score": "w-full"
       },
       {
@@ -131,7 +131,7 @@
     "skills": [
       {
         "group": "Frontend",
-        "names": "React, Angular, Vue, TypeScript, jQuery, HTML, CSS, Bootstrap, Tailwind"
+        "names": "React, Angular, Vue, jQuery, HTML, CSS, Bootstrap, TailwindCSS, MaterialUI, Prime"
       },
       {
         "group": "Backend",
@@ -139,7 +139,7 @@
       },
       {
         "group": "Database",
-        "names": "MySQL, Postgres, MongoDB, Firestore"
+        "names": "MySQL, Postgres, MongoDB, MS SQL Server, Firestore"
       },
       {
         "group": "Testing",
