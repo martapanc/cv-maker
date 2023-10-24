@@ -4,7 +4,7 @@
     "jobTitle": "Full-Stack Software Engineer",
     "email": "marta_panc@me.com",
     "website": "https://martacodes.it",
-    "location": "Torino, Italy",
+    "location": "Turin, Italy",
     "phoneNumber": "(+39) 3282465454",
     "intro": [
       "I’m a computer science graduate who loves writing code for work and for fun.",
@@ -15,7 +15,7 @@
   "body": {
     "jobs": [
       {
-        "name": "Resourcify GmbH – Hamburg (Remote)",
+        "name": "Resourcify GmbH – Turin (Remote)",
         "jobTitle": "Full-Stack Engineer",
         "dates": "Mar 2022 – Present",
         "description": "resourcify.md",
@@ -24,9 +24,9 @@
           "Spring Boot",
           "Angular",
           "TypeScript",
+          "MySQL",
           "Docker",
           "Kubernetes",
-          "MySQL",
           "AWS"
         ]
       },
@@ -40,9 +40,10 @@
           "Drupal",
           "Angular",
           "Vue",
-          "Google Tag Manager",
           "Jenkins",
-          "AWS"
+          "Azure",
+          "AWS",
+          "Google Tag Manager"
         ]
       },
       {
@@ -52,11 +53,12 @@
         "description": "booking.md",
         "skills": [
           "Java",
-          "JSP",
           "Spring Boot",
+          "REST APIs",
+          "JSP",
           "JavaScript",
-          "ReactJS",
-          "NodeJS",
+          "React",
+          "Node.js",
           "PHP",
           "MySQL",
           "Bamboo",
@@ -70,29 +72,29 @@
         "jobTitle": "Research Assistant",
         "dates": "Sep 2017 – Mar 2018",
         "description": "Collaboration in writing an article for IEEE about contracts and policies of cloud services, to give companies guidance on how to be compliant following the changes introduced by the new European law on data protection (GDPR).",
-        "skills": ["Cloud", "GDPR"]
+        "skills": ["Cloud", "SaaS", "GDPR"]
       },
       {
         "name": "ICT Group – Reggio Emilia, Italy (Hybrid)",
         "jobTitle": "Frontend Developer",
         "dates": "July 2016 – Mar 2017",
         "description": "A 300-hour curricular internship, which led to a 5-month part-time contract. During this time, I developed a customized HRMS web application that allowed employees and HR staff to manage holiday, sick leave, and business travel requests.",
-        "skills": ["AngularJS", "NodeJS", "MongoDB"]
+        "skills": ["AngularJS", "Node.js", "MongoDB"]
       }
     ]
   },
   "sidebar": {
     "education": [
       {
-        "school": "University of Manchester",
+        "school": "University of Manchester (UK)",
         "degree": "MSc in Advanced Computer Science",
-        "years": "2017 - 2018",
+        "years": "2017 – 2018",
         "grade": "Distinction"
       },
       {
         "school": "Free University of Bolzano (Italy)",
         "degree": "BSc in Computer Science",
-        "years": "2014 - 2017",
+        "years": "2014 – 2017",
         "grade": "106/110"
       },
       {

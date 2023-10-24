@@ -15,9 +15,12 @@ const WorkCard: React.FC<WorkCardProps> = ({ job }) => {
           <span className='text-[15.8px]'>{job.jobTitle}</span>
         </div>
 
-        <div className='flex flex-col items-end'>
+        <div className='mb-1 flex max-w-[200px] flex-wrap justify-end'>
           {job.skills.map((skill, id) => (
-            <span key={id} className='text-xs'>
+            <span
+              key={id}
+              className='mb-0.5 me-0.5 rounded-sm bg-sky-800 px-1 py-[0.1rem] text-xs text-white'
+            >
               {skill}
             </span>
           ))}

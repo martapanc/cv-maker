@@ -24,3 +24,7 @@ li {
 .job-description li {
   margin-left: 18px;
 }
+
+.w-4\/5 {
+  width: 80%;
+}
