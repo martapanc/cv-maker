@@ -56,7 +56,7 @@ const Sidebar = (props: SidebarProps) => {
         <SectionHeader title='Skills' />
 
         {props.skills.map((entry, id) => (
-          <div key={id} className='my-3'>
+          <div key={id} className='my-2.5'>
             <div>
               <strong className='font-semibold'>{entry.group}:</strong>
               &nbsp;
