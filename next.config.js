@@ -37,6 +37,10 @@ const nextConfig = {
           dimensions: false,
           titleProp: true,
         },
+      },
+      {
+        test: /\.md$/,
+        use: 'raw-loader',
       }
     );
 

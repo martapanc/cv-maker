@@ -16,14 +16,14 @@ export interface SidebarProps {
 
 const Sidebar = (props: SidebarProps) => {
   return (
-    <div className='w-[320px] bg-slate-200 px-6 py-10'>
+    <div className='w-[310px] bg-slate-200 px-6 pb-10 pt-8'>
       <div className='education' aria-label='education'>
         <SectionHeader title='Education' />
 
         {props.education.map((entry, id) => (
           <div key={id} className='my-4 flex flex-col'>
-            <strong>{entry.school}</strong>
-            <i className=''>{entry.degree}</i>
+            <span className='font-medium'>{entry.school}</span>
+            <i className='p-sm font-normal-light'>{entry.degree}</i>
             <div className='flex justify-between'>
               <span>{entry.years}</span>
               <span>{entry.grade}</span>

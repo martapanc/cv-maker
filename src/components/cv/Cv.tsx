@@ -7,14 +7,14 @@ import Header from '@/components/cv/sections/Header';
 import Sidebar from '@/components/cv/sections/Sidebar';
 
 const CvDocument = () => {
-  const { header, sidebar } = data;
+  const { header, body, sidebar } = data;
 
   return (
     <div className='h-[1555px] w-[1100px] bg-white'>
       <Header {...header} />
 
       <div className='flex h-[1325px]'>
-        <Body />
+        <Body {...body} />
         <Sidebar {...sidebar} />
       </div>
     </div>
