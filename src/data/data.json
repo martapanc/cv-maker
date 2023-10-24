@@ -70,14 +70,14 @@
         "jobTitle": "Research Assistant",
         "dates": "Sep 2017 – Mar 2018",
         "description": "Collaboration in writing an article for IEEE about contracts and policies of cloud services, to give companies guidance on how to be compliant following the changes introduced by the new European law on data protection (GDPR).",
-        "skills": ["Cloud", "SaaS", "GDPR"]
+        "skills": ["Cloud", "GDPR"]
       },
       {
         "name": "ICT Group – Reggio Emilia, Italy (Hybrid)",
         "jobTitle": "Frontend Developer",
         "dates": "July 2016 – Mar 2017",
         "description": "A 300-hour curricular internship, which led to a 5-month part-time contract. During this time, I developed a customized HRMS web application that allowed employees and HR staff to manage holiday, sick leave, and business travel requests.",
-        "skills": ["AngularJS", "Bootstrap", "jQuery", "NodeJS", "MongoDB"]
+        "skills": ["AngularJS", "NodeJS", "MongoDB"]
       }
     ]
   },
