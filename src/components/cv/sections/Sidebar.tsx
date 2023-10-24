@@ -32,7 +32,7 @@ const Sidebar = (props: SidebarProps) => {
         ))}
       </div>
 
-      <div className='programming mt-8' aria-label='programming'>
+      <div className='programming mt-7' aria-label='programming'>
         <SectionHeader title='Programming' />
 
         {props.programming.map((entry, id) => (
@@ -52,7 +52,7 @@ const Sidebar = (props: SidebarProps) => {
         ))}
       </div>
 
-      <div className='skills mt-8' aria-label='skills'>
+      <div className='skills mt-7' aria-label='skills'>
         <SectionHeader title='Skills' />
 
         {props.skills.map((entry, id) => (
@@ -66,7 +66,7 @@ const Sidebar = (props: SidebarProps) => {
         ))}
       </div>
 
-      <div className='languages mt-8' aria-label='languages'>
+      <div className='languages mt-7' aria-label='languages'>
         <SectionHeader title='Languages' />
 
         {props.languages.map((entry, id) => (
