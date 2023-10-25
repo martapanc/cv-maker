@@ -2,6 +2,7 @@ import clsx from 'clsx';
 
 import SectionHeader from '@/components/headers/SectionHeader';
 
+import { Award } from '@/types/Award';
 import { Language } from '@/types/Language';
 import { ProgrammingLanguage } from '@/types/ProgrammingLanguage';
 import { School } from '@/types/School';
@@ -12,11 +13,13 @@ export interface SidebarProps {
   programming: ProgrammingLanguage[];
   skills: Skill[];
   languages: Language[];
+  awards: Award[];
+  hobbies: string[];
 }
 
 const Sidebar = (props: SidebarProps) => {
   return (
-    <div className='w-[310px] bg-slate-200 px-6 pb-10 pt-8'>
+    <div className='flex w-[310px] flex-col bg-slate-200 px-6 pb-6 pt-8'>
       <div className='education' aria-label='education'>
         <SectionHeader title='Education' />
 
@@ -32,7 +35,7 @@ const Sidebar = (props: SidebarProps) => {
         ))}
       </div>
 
-      <div className='programming mt-7' aria-label='programming'>
+      <div className='programming mt-4' aria-label='programming'>
         <SectionHeader title='Programming' />
 
         {props.programming.map((entry, id) => (
@@ -52,7 +55,7 @@ const Sidebar = (props: SidebarProps) => {
         ))}
       </div>
 
-      <div className='skills mt-7' aria-label='skills'>
+      <div className='skills mt-4' aria-label='skills'>
         <SectionHeader title='Skills' />
 
         {props.skills.map((entry, id) => (
@@ -66,7 +69,7 @@ const Sidebar = (props: SidebarProps) => {
         ))}
       </div>
 
-      <div className='languages mt-7' aria-label='languages'>
+      <div className='languages mb-12 mt-4' aria-label='languages'>
         <SectionHeader title='Languages' />
 
         {props.languages.map((entry, id) => (
@@ -75,6 +78,29 @@ const Sidebar = (props: SidebarProps) => {
               <strong className='w-1/3 font-semibold'>{entry.name}</strong>
               <span className='w-2/3 font-light'>{entry.level}</span>
             </div>
+          </div>
+        ))}
+      </div>
+
+      <div className='awards mt-5' aria-label='Awards & Achievements'>
+        <SectionHeader title='Awards & Achievements' />
+
+        {props.awards.map((award, id) => (
+          <div key={id} className='flex flex-col font-light'>
+            <span className='mt-4'>{award.yearSchool}</span>
+            <i className='mt-0.5'>{award.name}</i>
+          </div>
+        ))}
+      </div>
+
+      <div className='hobbies mt-12' aria-label='Hobbies & Activities'>
+        <div className='mb-5'>
+          <SectionHeader title='Hobbies & Activities' />
+        </div>
+
+        {props.hobbies.map((hobby, id) => (
+          <div key={id} className='mt-4 font-light'>
+            <span>{hobby}</span>
           </div>
         ))}
       </div>

@@ -11,9 +11,9 @@ const CvDocument = () => {
   const { header, body, sidebar } = data;
 
   const onePageHeight = 1555;
-  const twoPageHeight = onePageHeight * 2;
-  const width = 1100;
-  const headerHeight = 230;
+  // const width = 1099.5510447451;
+  const width = 1105;
+  // const headerHeight = 230;
 
   return (
     <div
@@ -25,7 +25,7 @@ const CvDocument = () => {
     >
       <Header {...header} />
 
-      <div className={clsx('flex', `h-[${twoPageHeight - headerHeight}px]`)}>
+      <div className={clsx('flex', `h-[2890px]`)}>
         <Body {...body} />
         <Sidebar {...sidebar} />
       </div>

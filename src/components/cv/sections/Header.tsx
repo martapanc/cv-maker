@@ -26,7 +26,7 @@ const Header = (props: HeaderProps) => {
         </div>
 
         {props.intro.map((paragraph, id) => (
-          <p className='p-sm mb-1 font-extralight' key={id}>
+          <p className='p-sm mb-1 font-light' key={id}>
             {paragraph}
           </p>
         ))}

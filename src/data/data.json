@@ -235,6 +235,27 @@
         "name": "French",
         "level": "Beginner (A1-A2)"
       }
+    ],
+    "awards": [
+      {
+        "yearSchool": "2016, UniBZ",
+        "name": "Scholarship for Honours Students"
+      },
+      {
+        "yearSchool": "2015, Istituto Musicale “A. Peri”",
+        "name": "Diploma in Oboe"
+      },
+      {
+        "yearSchool": "2015, UniBZ & College of Charleston",
+        "name": "Erasmus+ scholarship."
+      }
+    ],
+    "hobbies": [
+      "Working on personal dev projects, following courses and tech talks.",
+      "Photography, video editing, computer graphics, videogames.",
+      "Reading novels and essays, technical and creative writing.",
+      "(solo) travelling.",
+      "Classical music, theatre, museums."
     ]
   }
 }
