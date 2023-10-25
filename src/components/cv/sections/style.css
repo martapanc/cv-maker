@@ -1,0 +1,30 @@
+.p-sm {
+  font-size: 0.95rem;
+  line-height: 1.4rem;
+}
+
+.p-xs {
+  font-size: 13.3px;
+  line-height: 1.275rem;
+}
+
+.text-45xl {
+  font-size: 2.6rem;
+  line-height: 1;
+}
+
+.font-normal-light {
+  font-weight: 350;
+}
+
+li {
+  list-style-type: disc;
+}
+
+.job-description li {
+  margin-left: 18px;
+}
+
+.w-4\/5 {
+  width: 80%;
+}

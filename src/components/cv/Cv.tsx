@@ -1,29 +1,36 @@
-import { Document, Page, StyleSheet, Text, View } from '@react-pdf/renderer';
+import clsx from 'clsx';
 import React from 'react';
 
-const styles = StyleSheet.create({
-  page: {
-    flexDirection: 'row',
-    backgroundColor: '#fff',
-  },
-  section: {
-    margin: 10,
-    padding: 10,
-    flexGrow: 1,
-  },
-});
+import * as data from '@/data/data.json';
 
-const CvDocument = () => (
-  <Document>
-    <Page size='A4' style={styles.page}>
-      <View style={styles.section}>
-        <Text>Section #1</Text>
-      </View>
-      <View style={styles.section}>
-        <Text>Section #2</Text>
-      </View>
-    </Page>
-  </Document>
-);
+import Body from '@/components/cv/sections/Body';
+import Header from '@/components/cv/sections/Header';
+import Sidebar from '@/components/cv/sections/Sidebar';
+
+const CvDocument = () => {
+  const { header, body, sidebar } = data;
+
+  const onePageHeight = 1555;
+  // const width = 1099.5510447451;
+  const width = 1105;
+  // const headerHeight = 230;
+
+  return (
+    <div
+      className={clsx(
+        `h-[${onePageHeight * 2}px]`,
+        `w-[${width}px]`,
+        'bg-white'
+      )}
+    >
+      <Header {...header} />
+
+      <div className={clsx('flex', `h-[2890px]`)}>
+        <Body {...body} />
+        <Sidebar {...sidebar} />
+      </div>
+    </div>
+  );
+};
 
 export default CvDocument;
