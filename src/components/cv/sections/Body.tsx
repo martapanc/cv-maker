@@ -53,10 +53,10 @@ const Body = (props: BodyProps) => {
             <div key={id} className='mx-3 mb-3 flex text-[15px]'>
               <div className='w-1/12'>{publication.year}</div>
               <div className='w-11/12'>
-                <div className='mb-0.5'>
-                  <span className='font-semibold'>{publication.type}:</span>
+                <div className='mb-0.5 text-justify'>
+                  <span className='font-medium'>{publication.type}:</span>
                   &nbsp;
-                  <span>{publication.title}</span>
+                  <span className='font-light'>{publication.title}</span>
                 </div>
 
                 <div className='flex justify-end'>
@@ -78,10 +78,10 @@ const Body = (props: BodyProps) => {
             <div key={id} className='mx-3 mb-3 flex text-[14.5px]'>
               <div className='w-1/12'>{project.year}</div>
               <div className='w-11/12'>
-                <div className='mb-0.5'>
-                  <span className='font-semibold'>{project.title}:</span>
+                <div className='mb-0.5 text-justify'>
+                  <span className='font-medium'>{project.title}:</span>
                   &nbsp;
-                  <span>{project.description}</span>
+                  <span className='font-light'>{project.description}</span>
                 </div>
               </div>
             </div>

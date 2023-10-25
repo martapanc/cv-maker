@@ -1,5 +1,5 @@
 export interface Publication {
-  year: string;
+  year: number;
   type: string;
   title: string;
   publisher: string;

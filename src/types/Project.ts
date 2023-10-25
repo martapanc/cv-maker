@@ -1,5 +1,5 @@
 export interface Project {
-  year: string;
+  year: number;
   description: string;
   title: string;
 }
