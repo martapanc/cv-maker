@@ -1,3 +1,4 @@
+import clsx from 'clsx';
 import React from 'react';
 
 import * as data from '@/data/data.json';
@@ -9,11 +10,22 @@ import Sidebar from '@/components/cv/sections/Sidebar';
 const CvDocument = () => {
   const { header, body, sidebar } = data;
 
+  const onePageHeight = 1555;
+  const twoPageHeight = onePageHeight * 2;
+  const width = 1100;
+  const headerHeight = 230;
+
   return (
-    <div className='h-[1555px] w-[1100px] bg-white'>
+    <div
+      className={clsx(
+        `h-[${onePageHeight * 2}px]`,
+        `w-[${width}px]`,
+        'bg-white'
+      )}
+    >
       <Header {...header} />
 
-      <div className='flex h-[1325px]'>
+      <div className={clsx('flex', `h-[${twoPageHeight - headerHeight}px]`)}>
         <Body {...body} />
         <Sidebar {...sidebar} />
       </div>

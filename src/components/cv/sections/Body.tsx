@@ -6,9 +6,13 @@ import WorkCard from '@/components/cv/cards/WorkCard';
 import SectionHeader from '@/components/headers/SectionHeader';
 
 import { Job } from '@/types/Job';
+import { Project } from '@/types/Project';
+import { Publication } from '@/types/Publication';
 
 export interface BodyProps {
   jobs: Job[];
+  publications: Publication[];
+  projects: Project[];
 }
 
 const Body = (props: BodyProps) => {
@@ -27,15 +31,63 @@ const Body = (props: BodyProps) => {
 
   return (
     <div className='w-[790px] px-3 py-6'>
-      <div className='py-2 pe-3 ps-5'>
-        <SectionHeader title='Work experience' />
+      <div className='work-experience mb-5' aria-label='Work Experience'>
+        <div className='py-2 pe-3 ps-5'>
+          <SectionHeader title='Work experience' />
+        </div>
+
+        {props.jobs.map((job, id) => (
+          <div key={id}>
+            <WorkCard job={job} />
+          </div>
+        ))}
       </div>
 
-      {props.jobs.map((job, id) => (
-        <div key={id}>
-          <WorkCard job={job} />
+      <div className='publications pt-10' aria-label='Publications'>
+        <div className='py-2 pe-3 ps-5'>
+          <div className='pb-4'>
+            <SectionHeader title='Publications' />
+          </div>
+
+          {props.publications.map((publication, id) => (
+            <div key={id} className='mx-3 mb-3 flex text-[15px]'>
+              <div className='w-1/12'>{publication.year}</div>
+              <div className='w-11/12'>
+                <div className='mb-0.5'>
+                  <span className='font-semibold'>{publication.type}:</span>
+                  &nbsp;
+                  <span>{publication.title}</span>
+                </div>
+
+                <div className='flex justify-end'>
+                  <i className='text-xs'>{publication.publisher}</i>
+                </div>
+              </div>
+            </div>
+          ))}
         </div>
-      ))}
+      </div>
+
+      <div className='projects' aria-label='Projects'>
+        <div className='py-2 pe-3 ps-5'>
+          <div className='pb-4'>
+            <SectionHeader title='Projects' />
+          </div>
+
+          {props.projects.map((project, id) => (
+            <div key={id} className='mx-3 mb-3 flex text-[14.5px]'>
+              <div className='w-1/12'>{project.year}</div>
+              <div className='w-11/12'>
+                <div className='mb-0.5'>
+                  <span className='font-semibold'>{project.title}:</span>
+                  &nbsp;
+                  <span>{project.description}</span>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
     </div>
   );
 };

@@ -81,6 +81,68 @@
         "description": "A 300-hour curricular internship, which led to a 5-month part-time contract. During this time, I developed a customized HRMS web application that allowed employees and HR staff to manage holiday, sick leave, and business travel requests.",
         "skills": ["AngularJS", "Node.js", "MongoDB"]
       }
+    ],
+    "publications": [
+      {
+        "year": 2018,
+        "type": "Research Project",
+        "title": "Cloud Computing and the New EU General Data Protection Regulation",
+        "publisher": "IEEE Cloud Computing, Nov./Dec. 2018, pp. 58-68, vol. 5"
+      },
+      {
+        "year": 2018,
+        "type": "MSc Dissertation",
+        "title": "automating the evaluation of student programming exercises.",
+        "publisher": "University of Manchester"
+      },
+      {
+        "year": 2017,
+        "type": "BSc Dissertation",
+        "title": "research on exploiting Self-Admitted Technical Debt for updating / reverting code versions in a context of emergent events in Systems of Systems.",
+        "publisher": "Free University of Bolzano"
+      }
+    ],
+    "projects": [
+      {
+        "year": 2023,
+        "title": "PokémonGo Connect",
+        "description": "working on a plaTorm that allows players of PokémonGo to find friends from all over the world, based on an algorithm to find “matches” for region-based challenges (e.g., player from region A, looking for players from B, C, D, and not E), raids and other activities."
+      },
+      {
+        "year": 2022,
+        "title": "Advent of Code",
+        "description": "I completed all 2015-2022 coding challenges using mainly Kotlin and Python."
+      },
+      {
+        "year": 2021,
+        "title": "Raspberry PI dashboard",
+        "description": "set of customised dashboards (weather, air quality, Covid19 cases, stocks, alerts from projects...) to be displayed on a screen and powered by a Raspberry Pi."
+      },
+      {
+        "year": 2020,
+        "title": "Italian Fiscal Code",
+        "description": "Android app to compute the Italian tax code, extract user’s details and verify correctness; published on the Play Store with 100000+ downloads."
+      },
+      {
+        "year": 2019,
+        "title": "xbar plugin",
+        "description": "display build & deployment statuses of preferred Bamboo branches and other team-relevant information, also contributing to the open-source xbar (previously known as BitBar) project."
+      },
+      {
+        "year": 2017,
+        "title": "GESS Hackathon (Shanghai)",
+        "description": "Global Entrepreneurship Summer School on Food and Sustainability. I participated in a hackathon hosted by Tongji University, and developed a MVP of an app for supermarket customers to locate and purchase discounted and near-to-expiry food."
+      },
+      {
+        "year": 2017,
+        "title": "“Silicon Valley Study Tour”",
+        "description": "organised tour of the major companies and universities in the San Francisco Bay area for the most talented Italian students."
+      },
+      {
+        "year": 2016,
+        "title": "Google “Inside Look”",
+        "description": "workshop on Cloud technologies at Google Warsaw for Computer Science students graduating in 2017 (invitation via selective contest, fully funded)."
+      }
     ]
   },
   "sidebar": {
