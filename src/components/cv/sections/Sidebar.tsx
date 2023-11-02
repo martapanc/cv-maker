@@ -46,7 +46,7 @@ const Sidebar = (props: SidebarProps) => {
                 <div
                   className={clsx(
                     'h-2.5 rounded-full bg-blue-600',
-                    entry.score
+                    entry.score,
                   )}
                 ></div>
               </div>
