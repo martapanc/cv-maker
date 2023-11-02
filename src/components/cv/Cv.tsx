@@ -20,7 +20,7 @@ const CvDocument = () => {
       className={clsx(
         `h-[${onePageHeight * 2}px]`,
         `w-[${width}px]`,
-        'bg-white'
+        'bg-white',
       )}
     >
       <Header {...header} />
