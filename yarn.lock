@@ -4405,9 +4405,17 @@ html-url-attributes@^3.0.0:
   resolved "https://verdaccio.mein-recycling.de/html-url-attributes/-/html-url-attributes-3.0.0.tgz#fc4abf0c3fb437e2329c678b80abb3c62cff6f08"
   integrity sha512-/sXbVCWayk6GDVg3ctOX6nxaVj7So40FcFAnWlWGNAB1LpYKcV5Cd10APjPjW80O7zYW2MsjBV4zZ7IZO5fVow==
 
-html2canvas@^1.0.0-rc.5, html2canvas@^1.4.1:
+html2canvas@^1.0.0-rc.5:
   version "1.4.1"
   resolved "https://verdaccio.mein-recycling.de/html2canvas/-/html2canvas-1.4.1.tgz#7cef1888311b5011d507794a066041b14669a543"
+  integrity sha512-fPU6BHNpsyIhr8yyMpTLLxAbkaK8ArIBcmZIRiBLiDhjeqvXolaEmDGmELFuX9I4xDcaKKcJl+TKZLqruBbmWA==
+  dependencies:
+    css-line-break "^2.1.0"
+    text-segmentation "^1.0.3"
+
+html2canvas@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/html2canvas/-/html2canvas-1.4.1.tgz#7cef1888311b5011d507794a066041b14669a543"
   integrity sha512-fPU6BHNpsyIhr8yyMpTLLxAbkaK8ArIBcmZIRiBLiDhjeqvXolaEmDGmELFuX9I4xDcaKKcJl+TKZLqruBbmWA==
   dependencies:
     css-line-break "^2.1.0"
@@ -5333,7 +5341,7 @@ jsonparse@^1.2.0:
 
 jspdf@^2.5.1:
   version "2.5.1"
-  resolved "https://verdaccio.mein-recycling.de/jspdf/-/jspdf-2.5.1.tgz#00c85250abf5447a05f3b32ab9935ab4a56592cc"
+  resolved "https://registry.yarnpkg.com/jspdf/-/jspdf-2.5.1.tgz#00c85250abf5447a05f3b32ab9935ab4a56592cc"
   integrity sha512-hXObxz7ZqoyhxET78+XR34Xu2qFGrJJ2I2bE5w4SM8eFaFEkW2xcGRVUss360fYelwRSid/jT078kbNvmoW0QA==
   dependencies:
     "@babel/runtime" "^7.14.0"
