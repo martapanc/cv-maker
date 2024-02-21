@@ -82,7 +82,7 @@ const Sidebar = (props: SidebarProps) => {
         ))}
       </div>
 
-      <div className='awards mt-5' aria-label='Awards & Achievements'>
+      <div className='awards mt-[70px]' aria-label='Awards & Achievements'>
         <SectionHeader title='Awards & Achievements' />
 
         {props.awards.map((award, id) => (
@@ -93,7 +93,7 @@ const Sidebar = (props: SidebarProps) => {
         ))}
       </div>
 
-      <div className='hobbies mt-12' aria-label='Hobbies & Activities'>
+      <div className='hobbies mt-7' aria-label='Hobbies & Activities'>
         <div className='mb-5'>
           <SectionHeader title='Hobbies & Activities' />
         </div>

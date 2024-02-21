@@ -25,7 +25,7 @@ const CvDocument = () => {
     >
       <Header {...header} />
 
-      <div className={clsx('flex', `h-[2890px]`)}>
+      <div className={clsx('flex', `h-[${onePageHeight * 2}px]`)}>
         <Body {...body} />
         <Sidebar {...sidebar} />
       </div>

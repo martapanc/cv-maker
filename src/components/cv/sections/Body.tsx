@@ -68,7 +68,7 @@ const Body = (props: BodyProps) => {
         </div>
       </div>
 
-      <div className='projects' aria-label='Projects'>
+      <div className='projects pt-1.5' aria-label='Projects'>
         <div className='py-2 pe-3 ps-5'>
           <div className='pb-4'>
             <SectionHeader title='Projects' />
