@@ -1,3 +1,4 @@
+import appetize from '@/data/appetize.md';
 import bjss from '@/data/bjss.md';
 import booking from '@/data/booking.md';
 import resourcify from '@/data/resourcify.md';
@@ -17,6 +18,7 @@ export interface BodyProps {
 
 const Body = (props: BodyProps) => {
   const fileMappings: { [key: string]: string } = {
+    appetize: appetize,
     bjss: bjss,
     booking: booking,
     resourcify: resourcify,

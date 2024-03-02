@@ -1,14 +1,19 @@
-I joined the Graduate scheme, involving a team rotation every 6 months – a unique opportunity to gain expertise across the various services within the company.
+I joined the Graduate scheme, involving a team rotation every 6 months – a unique opportunity to gain expertise across
+the various services within the company.
 
 Some backend projects involved:
 
-- the migration of the legacy Pricing Engine to a modern Spring API as part of restructuring towards microservices architecture.
-- the improvement of the platform that communicates with supplier APIs and manages the automated reservation process.
+- migrating the legacy Pricing Engine to a modern Spring API as part of restructuring towards microservices
+  architecture.
+- improving the platform that communicates with supplier APIs and manages the automated reservation process.
 
-In the frontend area:
+In the frontend area I:
 
-- I maintained the Payment page of Rentalcars.com and Sanction Screening tool, in compliance with industry standards.
-- I contributed to the development and scaling of the new "Premium" insurance product, driving revenue growth starting from a few small airports, then expanding the market presence to several popular holiday destinations.
-- and contributed to web-replatforming efforts, developing various filters for the Rentalcars results page and creating "Premium" and "Full Insurance" upsell banners using React, seamlessly integrating them into the main webapp.
+- maintained the Payment page of Rentalcars.com and Sanction Screening tool.
+- developed and scaled the "Premium" insurance product, expanding from small airports to many popular holiday
+  destinations and driving revenue growth.
+- Contributed to web replatforming, developing filters for Rentalcars' results page and creating React-based "Premium"
+  and "Full Insurance" upsell banners, integrated into the main webapp.
 
-I also conducted interviews for the company's graduate scheme, identifying top talent to join the team, and helped implementing WFH techniques during Covid-19, enhancing productivity, communication and overall well-being.
+Also conducted interviews identifying top talent to join the team, and helped implementing WFH techniques during
+Covid-19, enhancing productivity, communication and overall well-being.

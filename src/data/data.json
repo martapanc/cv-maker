@@ -4,7 +4,7 @@
     "jobTitle": "Full-Stack Software Engineer",
     "email": "marta_panc@me.com",
     "website": "https://martacodes.it",
-    "location": "Turin, Italy",
+    "location": "Reggio Emilia area, Italy",
     "phoneNumber": "(+39) 3284465452",
     "intro": [
       "I’m a computer science graduate who loves writing code for work and for fun.",
@@ -15,9 +15,24 @@
   "body": {
     "jobs": [
       {
-        "name": "Resourcify GmbH – Turin (Remote)",
+        "name": "Appetize.io – USA (Remote)",
         "jobTitle": "Full-Stack Engineer",
-        "dates": "Mar 2022 – Present",
+        "dates": "Jan 2024 – Present",
+        "description": "appetize.md",
+        "skills": [
+          "React",
+          "Node.js",
+          "NextJS",
+          "TypeScript",
+          "TailwindCSS",
+          "MongoDB",
+          "Project Management"
+        ]
+      },
+      {
+        "name": "Resourcify GmbH – Hamburg (Remote)",
+        "jobTitle": "Full-Stack Engineer",
+        "dates": "Mar 2022 – Jan 2024",
         "description": "resourcify.md",
         "skills": [
           "Java",
@@ -103,6 +118,11 @@
       }
     ],
     "projects": [
+      {
+        "year": 2024,
+        "title": "FlexInvoice",
+        "description": "A tool for generating customised invoices, to simplify businesses and freelancers' accounting duties."
+      },
       {
         "year": 2023,
         "title": "PokémonGo Connect",
