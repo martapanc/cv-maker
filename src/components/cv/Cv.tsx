@@ -10,22 +10,16 @@ import Sidebar from '@/components/cv/sections/Sidebar';
 const CvDocument = () => {
   const { header, body, sidebar } = data;
 
-  const onePageHeight = 1555;
+  // const onePageHeight = 1655;
   // const width = 1099.5510447451;
   const width = 1105;
-  // const headerHeight = 230;
+  // const headerHeight = 215;
 
   return (
-    <div
-      className={clsx(
-        `h-[${onePageHeight * 2}px]`,
-        `w-[${width}px]`,
-        'bg-white',
-      )}
-    >
+    <div className={clsx(`h-[4000px]`, `w-[${width}px]`, 'bg-white')}>
       <Header {...header} />
 
-      <div className={clsx('flex', `h-[${onePageHeight * 2}px]`)}>
+      <div className={clsx('flex', ``)}>
         <Body {...body} />
         <Sidebar {...sidebar} />
       </div>
