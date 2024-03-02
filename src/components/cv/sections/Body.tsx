@@ -32,9 +32,9 @@ const Body = (props: BodyProps) => {
   });
 
   return (
-    <div className='w-[790px] px-3 py-6'>
+    <div className='w-[790px] h-full px-3 py-4'>
       <div className='work-experience mb-5' aria-label='Work Experience'>
-        <div className='py-2 pe-3 ps-5'>
+        <div className='py-1.5 pe-3 ps-5'>
           <SectionHeader title='Work experience' />
         </div>
 

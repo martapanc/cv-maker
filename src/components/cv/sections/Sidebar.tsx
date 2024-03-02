@@ -19,7 +19,7 @@ export interface SidebarProps {
 
 const Sidebar = (props: SidebarProps) => {
   return (
-    <div className='flex w-[310px] flex-col bg-slate-200 px-6 pb-6 pt-8'>
+    <div className='flex w-[310px] h-[3000px] flex-col bg-slate-200 px-6 py-6'>
       <div className='education' aria-label='education'>
         <SectionHeader title='Education' />
 
@@ -35,7 +35,7 @@ const Sidebar = (props: SidebarProps) => {
         ))}
       </div>
 
-      <div className='programming mt-4' aria-label='programming'>
+      <div className='programming mt-6' aria-label='programming'>
         <SectionHeader title='Programming' />
 
         {props.programming.map((entry, id) => (
@@ -55,7 +55,7 @@ const Sidebar = (props: SidebarProps) => {
         ))}
       </div>
 
-      <div className='skills mt-4' aria-label='skills'>
+      <div className='skills mt-6' aria-label='skills'>
         <SectionHeader title='Skills' />
 
         {props.skills.map((entry, id) => (
@@ -82,7 +82,7 @@ const Sidebar = (props: SidebarProps) => {
         ))}
       </div>
 
-      <div className='awards mt-[70px]' aria-label='Awards & Achievements'>
+      <div className='awards mt-[75px]' aria-label='Awards & Achievements'>
         <SectionHeader title='Awards & Achievements' />
 
         {props.awards.map((award, id) => (

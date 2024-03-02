@@ -15,18 +15,18 @@ export interface HeaderProps {
 
 const Header = (props: HeaderProps) => {
   return (
-    <div className='flex h-[230px] bg-sky-900 p-8 text-white'>
+    <div className='flex h-[215px] bg-sky-900 py-6 px-8 text-white'>
       <div className='w-9/12'>
         <div className='mb-1.5'>
           <span className='text-45xl font-bold'>{props.name}</span>
         </div>
 
-        <div className='mb-6'>
+        <div className='mb-4'>
           <span className='text-3xl'>{props.jobTitle}</span>
         </div>
 
         {props.intro.map((paragraph, id) => (
-          <p className='p-sm mb-1 font-light' key={id}>
+          <p className='p-sm mb-0.5 font-light text-xs' key={id}>
             {paragraph}
           </p>
         ))}
